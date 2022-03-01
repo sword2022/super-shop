@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>myshop-admin</title>
+  </head>
+  <style>
+    body .el-message-box__wrapper .el-message-box {
+      /* 调整message-box移动端显示宽度 */
+      width: 350px !important;
+    }
+    body .el-message {
+      /* 调整message移动端显示宽度 */
+      width: 350px !important;
+    }
+    .order-list-style .cell .el-button{
+      width: 100%;
+      margin-bottom: 5px;
+      margin-left: 0px;
+    }
+  </style>
+  <body style="padding: 0px;margin: 0px;">
+    <noscript>
+      <strong>很抱歉，如果不启用JavaScript，myshop-admin将无法正常工作. 请启用它以继续.</strong>
+    </noscript>
+    <!-- 先在vue的index.html里面引入腾讯地图包 -->
+    <script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=KB5BZ-5FIR2-ZLTU4-C57Q7-JIKCJ-A7F5H"></script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

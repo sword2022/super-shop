@@ -1,0 +1,68 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {}
+		},
+		{
+			"path": "pages/create-order/index",
+			"style": {}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {}
+		},
+		{
+			"path": "pages/order-list/index",
+			"style": {}
+		},
+		{
+			"path": "pages/order-detail/index",
+			"style": {}
+		},
+		{
+			"path": "pages/coupon-list/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#838383",
+		"selectedColor": "#b4282d",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/home-off.png",
+				"selectedIconPath": "/static/tabbar/home-on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order-list/index",
+				"iconPath": "/static/tabbar/finish-off.png",
+				"selectedIconPath": "/static/tabbar/finish-on.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"iconPath": "/static/tabbar/my-off.png",
+				"selectedIconPath": "/static/tabbar/my-on.png",
+				"text": "个人"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	}
+}

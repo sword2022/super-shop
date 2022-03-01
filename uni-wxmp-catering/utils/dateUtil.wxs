@@ -1,0 +1,23 @@
+var formatTime = function(date) {
+    var date = getDate(date); //返回当前时间对象
+    var year = date.getFullYear()
+    var month = fixz(date.getMonth() + 1)
+    var day = fixz(date.getDate())
+
+    var hour = fixz(date.getHours())
+    var minute = fixz(date.getMinutes())
+    var second = fixz(date.getSeconds())
+
+    return [year, month, day].join('-') + ' ' + [hour, minute, second].join(':')
+}
+
+var fixz = function(num) {
+    if (num < 10) {
+        return '0' + num
+    }
+    return num
+}
+
+module.exports = {
+    formatTime: formatTime
+}
