@@ -1,6 +1,7 @@
 # super-shop
-自提/外卖/团购微信小程序自由切换(单店版)，服务端node.js+express+mongodb，管理端vue+elementui，小程序uni-app
+点餐/自提/外卖/团购微信小程序配送方式自由选择(单店版)，支持飞鹅外卖打印机，微信新订单提醒，服务端node.js+express+mongodb，管理端vue+elementui，小程序uni-app
 # 效果展示
+无法显示图片可使用自由海添加域名raw.githubusercontent.com即可
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/0.jpg)
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/1.jpg)
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/2.jpg)
@@ -8,7 +9,7 @@
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/5.jpg)
 # 服务端
 _______________________________________  
-###########安装步骤##########  
+安装步骤*****************************   
 ---------------------------------------  
 bcrypt安装  
 npm i --save node-gyp  
@@ -26,7 +27,7 @@ pm2 save
 查看运行日志  
 pm2 logs  
 _______________________________________  
-###########目录介绍##########  
+目录介绍*****************************  
 ---------------------------------------  
 --cert		微信支付退款用商户证书  
 --models		数据模型 指定了保存到数据库的数据格式  
@@ -37,7 +38,7 @@ _______________________________________
 --utils		工具类 存放功能函数  
 # 管理端
 _______________________________________  
-###########安装步骤##########  
+安装步骤*****************************  
 ---------------------------------------  
 修改服务器网址www123456789.qicp.vip为自己的  
 \element-admin\src\http.js  
