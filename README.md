@@ -7,6 +7,5 @@
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/2.jpg)
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/3.jpg)
 ![image](https://github.com/sword2022/images/blob/8683c95d2b0f11cb12d7a9dfd4d31fc3510532b2/5.jpg)  
-代码很多注释而且完全开源，不懂的查必应，扫码加我微信可提供有偿帮助  
-![image](https://github.com/sword2022/images/blob/99017e838d70eb026c1bd45b47e49aac47e4ff63/myRQ.jpg)  
+代码很多注释而且完全开源，不懂的查必应.
 
